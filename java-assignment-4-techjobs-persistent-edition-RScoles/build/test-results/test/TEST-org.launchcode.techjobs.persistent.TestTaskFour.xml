@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.launchcode.techjobs.persistent.TestTaskFour" tests="6" skipped="0" failures="1" errors="0" timestamp="2023-05-30T02:53:27" hostname="ryans-Air.attlocal.net" time="0.021">
+  <properties/>
+  <testcase name="testSkillJobsFieldHasCorrectType()" classname="org.launchcode.techjobs.persistent.TestTaskFour" time="0.011"/>
+  <testcase name="testSkillClassHasJobsField()" classname="org.launchcode.techjobs.persistent.TestTaskFour" time="0.0"/>
+  <testcase name="testJobSkillsHasCorrectTypeAndAnnotation()" classname="org.launchcode.techjobs.persistent.TestTaskFour" time="0.002"/>
+  <testcase name="testSqlQuery()" classname="org.launchcode.techjobs.persistent.TestTaskFour" time="0.004">
+    <failure message="org.opentest4j.AssertionFailedError: Task 4 SQL query is incorrect. Test your query against your database to find the error. ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Task 4 SQL query is incorrect. Test your query against your database to find the error. ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;
+	at org.launchcode.techjobs.persistent.TestTaskFour.testSqlQuery(TestTaskFour.java:227)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</failure>
+  </testcase>
+  <testcase name="testSkillJobsFieldHasCorrectAnnotation()" classname="org.launchcode.techjobs.persistent.TestTaskFour" time="0.001"/>
+  <testcase name="testJobSkillsRefactoring()" classname="org.launchcode.techjobs.persistent.TestTaskFour" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
